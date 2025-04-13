@@ -10,8 +10,8 @@ int main(void)
 	cout << "Input your number: ";
 	cin >> *number;
 
-	cout << "Is your number palindrome? "
-		<< (is_palindrome(*number) ? "Yes\n" : "No\n");
+	cout << "Has your number at least one odd digit? "
+		<< (at_least_one_odd(*number) ? "Yes\n" : "No\n");
 
 	delete number;
 }
